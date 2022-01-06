@@ -18,9 +18,7 @@ rsync $args "$backupFolder/home/$USER/.oci" /home/trent/
 rsync $args "$backupFolder/home/$USER/.vim" /home/trent/
 rsync $args "$backupFolder/home/$USER/.docker" /home/trent/
 rsync $args "$backupFolder/home/$USER/.apex-nitro" /home/trent/
-rsync $args "$backupFolder/home/$USER/gdrive" /home/trent/gdrive/ 
 rsync $args "$backupFolder/home/$USER/.fn" /home/trent/
-rsync $args "$backupFolder/home/$USER/.gdrive" /home/trent/
 rsync $args "$backupFolder/home/$USER/.gitignore" /home/trent/
 rsync $args "$backupFolder/home/$USER/.sqlcl" /home/trent/
 #rsync $args "$backupFolder/home/$USER/.sqldeveloper" /home/trent/.sqldeveloper/ 
