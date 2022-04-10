@@ -3,15 +3,16 @@ set -e
 # TODO: Relabel drive to BACKUP
 backupFolder=/media/$USER/BACKUP
 args='-vrut --delete --progress'
+args_nodelete='-vrut --progress'
 
 # Home
 mkdir -p $backupFolder/$HOME
-rsync $args /home/trent/Pictures/ "$backupFolder/home/$USER/Pictures/" --exclude Screenshot*
+rsync $args_nodelete /home/trent/Pictures/ "$backupFolder/home/$USER/Pictures/" --exclude Screenshot*
 rsync $args /home/trent/Projects/ "$backupFolder/home/$USER/Projects/" --exclude "node_modules"
 rsync $args /home/trent/Documents/ "$backupFolder/home/$USER/Documents/"
 rsync $args /home/trent/Desktop/ "$backupFolder/home/$USER/Desktop/"
 rsync $args /home/trent/Downloads/ "$backupFolder/home/$USER/Downloads/"
-rsync $args /home/trent/Financial\ Records/ "$backupFolder/home/$USER/Financial Records/"
+rsync $args_nodelete /home/trent/Financial\ Records/ "$backupFolder/home/$USER/Financial Records/"
 rsync $args /home/trent/bin/ "$backupFolder/home/$USER/bin/"
 
 rsync $args /home/trent/.ssh/ "$backupFolder/home/$USER/.ssh"
