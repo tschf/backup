@@ -2,7 +2,7 @@
 set -e
 # TODO: Relabel drive to BACKUP
 backupFolder=/media/$USER/BACKUP
-args='-vru --delete --progress'
+args='-vrut --delete --progress'
 
 # Home
 mkdir -p $backupFolder/$HOME
