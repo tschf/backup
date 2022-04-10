@@ -11,7 +11,6 @@ rsync $args "$backupFolder/home/$USER/Projects/" /home/trent/Projects/
 rsync $args "$backupFolder/home/$USER/Documents/" /home/trent/Documents/
 rsync $args "$backupFolder/home/$USER/Desktop/" /home/trent/Desktop/
 rsync $args "$backupFolder/home/$USER/Downloads/" /home/trent/Downloads/
-rsync $args "$backupFolder/home/$USER/gdrive/" /home/trent/gdrive/
 rsync $args "$backupFolder/home/$USER/Financial Records/" /home/trent/Financial\ Records/
 rsync $args "$backupFolder/home/$USER/.ssh" /home/trent/
 rsync $args "$backupFolder/home/$USER/.oci" /home/trent/
