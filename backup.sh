@@ -31,6 +31,5 @@ rsync $args /home/trent/.gnupg/ "$backupFolder/home/$USER/.gnupg"
 mkdir -p $backupFolder/etc
 rsync $args /etc/hosts "$backupFolder/etc/hosts$(hostname)"
 rsync $args /etc/gitconfig "$backupFolder/etc/"
-rsync $args /etc/profile.d/oracle-env.sh "$backupFolder/etc/profile.d/"
 
 echo "DONE"

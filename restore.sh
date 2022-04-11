@@ -25,6 +25,5 @@ rsync $args "$backupFolder/home/$USER/.gnupg" /home/trent/
 
 #rsync $args /etc/hosts "$backupFolder/etc/"
 sudo rsync $args "$backupFolder/etc/gitconfig" /etc/
-#rsync $args /etc/profile.d/oracle-env.sh "$backupFolder/etc/profile.d/"
 
 echo "DONE"
