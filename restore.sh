@@ -15,7 +15,6 @@ rsync $args_nodelete "$backupFolder/home/$USER/Financial Records/" /home/trent/F
 rsync $args "$backupFolder/home/$USER/.ssh" /home/trent/
 rsync $args "$backupFolder/home/$USER/.oci" /home/trent/
 rsync $args "$backupFolder/home/$USER/.vim" /home/trent/
-rsync $args "$backupFolder/home/$USER/.docker" /home/trent/
 rsync $args "$backupFolder/home/$USER/.fn" /home/trent/
 rsync $args "$backupFolder/home/$USER/.gitignore" /home/trent/
 rsync $args "$backupFolder/home/$USER/.sqlcl" /home/trent/
