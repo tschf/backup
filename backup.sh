@@ -39,7 +39,7 @@ rsync $args /home/trent/.gnupg/ "$backupPath/home/$USER/.gnupg"
 # System
 
 mkdir -p $backupPath/etc
-rsync $args /etc/hosts "$backupPath/etc/hosts$(hostname)"
+rsync $args /etc/hosts "$backupPath/etc/hosts"
 rsync $args /etc/gitconfig "$backupPath/etc/"
 
 echo "DONE"
