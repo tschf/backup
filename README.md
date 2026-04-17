@@ -4,14 +4,16 @@ This is a program to backup my files.
 
 ## Usage
 
-TODO
+```shell
+./backup.sh "/mnt/argon/backup/$(hostname)"
+```
 
-# About
+## About
 
-## Author
+### Author
 
 Trent Schafer (c) 2019
 
-# License
+### License
 
 MIT
