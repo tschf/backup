@@ -5,7 +5,7 @@ This is a program to backup my files.
 ## Usage
 
 ```shell
-./backup.sh "/mnt/argon/backup/$(hostname)"
+./backup.sh "/mnt/argon/backup/$(hostname) | tee --append /tmp/backup.log"
 ```
 
 ## About
